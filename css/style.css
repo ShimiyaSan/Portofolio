@@ -167,7 +167,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .about .row .about-img img {
@@ -190,7 +189,6 @@ body {
   font-size: 1.4rem;
   margin-bottom: 0.8rem;
   line-height: 1.6;
-
 }
 
 /* skill & project*/
@@ -232,13 +230,13 @@ body {
 }
 
 /* contact me */
-.contact .row{
+.contact .row {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
 }
 
-.contact .row .map{
+.contact .row .map {
   flex: 1 1 25rem;
   object-fit: center;
   width: 100%;
@@ -250,11 +248,11 @@ body {
   padding: 2rem 5rem;
 }
 
-.contact .row form h3{
+.contact .row form h3 {
   font-size: 2rem;
 }
 
-.contact .row form .input-group{
+.contact .row form .input-group {
   display: flex;
   align-items: center;
   margin-top: 2rem;
@@ -264,16 +262,15 @@ body {
   position: relative;
 }
 
-.contact .row form .input-group input{
+.contact .row form .input-group input {
   width: 100%;
   padding: 2rem;
   font-size: 1.6rem;
   background: none;
   color: white;
-  
 }
 
-.contact .row form a{
+.contact .row form a {
   padding: 1rem 2rem;
   margin-top: 2rem;
   display: inline-block;
@@ -283,42 +280,39 @@ body {
   cursor: pointer;
 }
 
-footer{
+footer {
   background-color: var(--primary);
   text-align: center;
   padding: 1rem 0;
   margin-top: 3rem;
 }
 
-footer .social{
+footer .social {
   padding: 1rem 0;
 }
 
-footer .social a{
+footer .social a {
   color: #ffffff;
   margin: 2rem;
 }
-
 
 footer .linked {
   margin: 1.5rem 0;
 }
 
-footer .linked a{
+footer .linked a {
   color: #ffffff;
   margin: 1rem;
 }
 
-footer .credit{
+footer .credit {
   padding-bottom: 3rem;
 }
 
-footer .credit a{
+footer .credit a {
   font-weight: 500;
   color: white;
 }
-
-
 
 /* media Query */
 /* mobile version */
@@ -340,8 +334,8 @@ footer .credit a{
     font-size: 62.5%;
   }
 
-  .hero{
-    background-position-x:-60rem;
+  .hero {
+    background-position-x: -60rem;
   }
 
   .navbar .toggler-navbar {
@@ -447,10 +441,7 @@ footer .credit a{
   .contact .row {
     flex-wrap: wrap;
   }
-
-
 }
-
 
 /* pc */
 
