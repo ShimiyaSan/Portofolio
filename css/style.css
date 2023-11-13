@@ -207,10 +207,19 @@ body {
 
 .skill .row .card img {
   width: 35%;
+  transition: 200ms;
+}
+
+.skill .row .card img:hover{
+  transform: translateY(-2rem);
 }
 
 .project .row .card img {
   width: 85%;
+  transition: 200ms;
+}
+.project .row .card img:hover {
+  transform: translateY(-2rem);
 }
 
 .skill .row .card h4,
