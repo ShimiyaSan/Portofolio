@@ -341,6 +341,7 @@ footer .credit a {
 
   .hero {
     background-position-y: 4.5rem;
+    background-position-y: -60rem;
     height: 50vh;
   }
 
