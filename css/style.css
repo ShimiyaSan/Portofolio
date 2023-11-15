@@ -330,10 +330,6 @@ footer .credit a {
   html {
     font-size: 55%;
   }
-
-  .hero {
-    background-position-y: 4.5rem;
-  }
 }
 
 /* tablet */
@@ -344,6 +340,7 @@ footer .credit a {
   }
 
   .hero {
+    background-position-y: 4.5rem;
     height: 50vh;
   }
 
