@@ -331,9 +331,6 @@ footer .credit a {
     font-size: 55%;
   }
 
-  .hero {
-    background-position-y: 4.5rem;
-  }
 }
 
 /* tablet */
@@ -344,7 +341,8 @@ footer .credit a {
   }
 
   .hero {
-    background-position-x: -60rem;
+    height: 50vh;
+    background-position-y: 4.5rem;
   }
 
   .navbar .toggler-navbar {
