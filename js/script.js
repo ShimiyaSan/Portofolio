@@ -35,3 +35,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+
+
+function gotowhatsapp() {
+
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email").value;
+
+  const url = "https://wa.me/6281341355556?text=" + "Name: " + name + "%0a"+ "Phone: " + phone + "%0a"+ "Email: " + email 
+
+  window.open(url, '_blank').focus();
+}
