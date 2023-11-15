@@ -344,7 +344,7 @@ footer .credit a {
   }
 
   .hero {
-    background-position-x: -60rem;
+    height: 50vh;
   }
 
   .navbar .toggler-navbar {
