@@ -83,9 +83,10 @@ body {
   display: flex;
   align-items: center;
   background-image: url(../img/bg.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+
   background-position-y: 7rem;
   position: relative;
 }
@@ -339,10 +340,9 @@ footer .credit a {
   html {
     font-size: 62.5%;
   }
-
-  .hero {
-    height: 50vh;
-    background-position-y: 4.5rem;
+  .hero::after{
+    height: 20%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 8%, rgba(255, 255, 255, 0) 80%);
   }
 
   .navbar .toggler-navbar {
