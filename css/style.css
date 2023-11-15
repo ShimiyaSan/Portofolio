@@ -332,6 +332,9 @@ footer .credit a {
     font-size: 55%;
   }
 
+  .hero {
+    background-position-y: 4.5rem;
+  }
 }
 
 /* tablet */
@@ -340,9 +343,9 @@ footer .credit a {
   html {
     font-size: 62.5%;
   }
-  .hero::after{
-    height: 20%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 8%, rgba(255, 255, 255, 0) 80%);
+
+  .hero {
+    background-position: center;
   }
 
   .navbar .toggler-navbar {
